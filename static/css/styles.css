@@ -20,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../../public/Fondo.PNG');
+    background-image: url('../images/Fondo.png');
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
