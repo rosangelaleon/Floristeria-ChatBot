@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloraBot - ChatBot</title>
+    <link rel="stylesheet" href="..\static\css\styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Imagen de fondo -->
+    <div class="background-image"></div>
+    
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <h1><i data-lucide="flower-2"></i>FloraBot</h1>
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="welcome-message">
+                <p>
+                    ¡Hola!
+                    <br> Soy asistente virtual</br>
+                </p>
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typingIndicator">
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <div class="input-group">
+                <input type="text" id="messageInput" placeholder="Escribe tu mensaje..." autocomplete="off">
+                <button id="sendButton"><i data-lucide="send"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="..\static\js\script.js"></script>
+</body>
+</html>
